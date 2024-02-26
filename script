@@ -21,7 +21,7 @@ function buscaElementos(){
         
     });
     const atributos = document.querySelectorAll('.attr_text');
-    console.log(atributos)
+
     atributos.forEach(atributo=>{
         if(atributo){
             const titulo = atributo.querySelector('.attr_title');
