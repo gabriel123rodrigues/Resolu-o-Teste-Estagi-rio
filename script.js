@@ -55,10 +55,10 @@ function buscaElementos(){
                 const spans = linha.querySelectorAll('td > span');
                 if (spans){
                     
-                        const chave = spans[0].innerText.trim();
-                        const valor = spans[1].innerText.trim();
+                        const key = spans[0].innerText.trim();
+                        const value = spans[1].innerText.trim();
                         const nutriente = {};
-                        nutriente [chave] = valor;
+                        nutriente [key] = value;
                         arrayNutrientes.push(nutriente);
                                    
                 }else{
