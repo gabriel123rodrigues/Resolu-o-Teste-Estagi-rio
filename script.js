@@ -14,9 +14,8 @@ function buscaElementos(){
     
             elementos[addKey] =addTexto;
         }else {
-    
-            const addKey = 'elemento nao existe';
-            elementos[addKey] = addKey
+            
+            elementos[addKey] = null;
         }
         
     });
